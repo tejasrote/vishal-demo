@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        .navbar-brand img {
+            width: 38px;
+            height: 32px;
+        }
+
+        .btn-group {
+            color: aliceblue;
+            width: 50px;
+            height: 32px;
+        }
+    </style>
+    <nav class="navbar navbar-light" style="background-color: #40652F;">
+        <div class="container-fluid py-3 py-sm-0">
+            <a class="navbar-brand" href="#">
+                <img src="agrologo.jpeg" alt="" class="d-inline-block align-text-top">
+                AGRI MEDS
+            </a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Liabrary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Community</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="border p-4 mb-4 d-flex align-items-center flex-column">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <!-- Container wrapper -->
+          <div class="container-fluid">
+            <!-- Navbar brand -->
+            
+      
+            <!-- Toggle button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+      
+              <!-- Search form -->
+              <div class="input-group ps-5 py-3 py-sm-0">
+                <div id="navbar-search-autocomplete" class="form-outline">
+                  <input type="search" id="form1" class="form-control" value="Search" />
+                  <label class="form-label" for="form1"></label>
+                </div>
+              </div>
+            </div>
+            <!-- Collapsible wrapper -->
+            <form class="d-flex py-3 py-sm-0">
+                <input type="text" list="Filter by crops" placeholder="Filter by crops" />
+                <datalist id="Filter by crops">
+                    <option value="Tomato">Tomato</option>
+                    <option value="Lentil">Lentil</option>
+                    <option value="Onion">Onion</option>
+                    <option value="Potato">Potato</option>
+                    <option value="Turmeric">Turmeric</option>
+                    <option value="Wheat">Wheat</option>
+                    <option value="Pomegranate">Pomegranate</option>
+                    <option value="Mango">Mango</option>
+                </datalist>
+            </form>
+                <input type="text" list="Filter by pathogen" placeholder="Filter by pathogen" />
+                <datalist id="Filter by pathogen">
+                    <option value="Fungus">Fungus</option>
+                    <option value="Virus">Virus</option>
+                    <option value="Mite">Mite</option>
+                    <option value="Bacteria">Bacteria</option>
+                    <option value="Insect">Insect</option>
+                    <option value="Deficiency">Deficiency</option>
+                </datalist>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+          <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+      </section>
+
+
+ <!-- Cards of library -->
+ <div class="container">
+     <div class="row">
+         <div class="col-sm-4 py-3 py-sm-0">
+            <div class="card box-shadow" style="width: 18rem;">
+                <img class="card-img-top" src="images/tomato yellow leaf curl virus.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Tomato yellow leaf curl virus</h5>
+                  <p class="card-text"><b>Virus.</b></p>
+                  <a href="#" class="btn btn-primary">SHOW MORE</a>
+                </div>
+              </div>
+         </div>
+         <div class="col-sm-4 py-3 py-sm-0">
+            <div class="card box-shadow" style="width: 18rem;">
+                <img class="card-img-top" src="images/early blight pepper.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Early  Blight</h5>
+                  <p class="card-text"><b>Fungus.</b></p>
+                  <a href="#" class="btn btn-primary">SHOW MORE</a>
+                </div>
+              </div>
+         </div>
+         <div class="col-sm-4 py-3 py-sm-0">
+            <div class="card box-shadow" style="width: 18rem;">
+                <img class="card-img-top" src="images/leaf miner flies melon.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Leaf Miner  File</h5>
+                  <p class="card-text"><b>Insect.</b></p>
+                  <a href="#" class="btn btn-primary">SHOW MORE</a>
+                </div>
+              </div>
+         </div>
+         
+     </div>
+ </div>
+
+ <div class="container">
+    <div class="row">
+        <div class="col-sm-4 py-3 py-sm-0">
+           <div class="card box-shadow" style="width: 18rem;">
+               <img class="card-img-top" src="images/tomato late blight tomato.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Tomato late blight tomato</h5>
+                 <p class="card-text"><b>Fungus.</b></p>
+                 <a href="#" class="btn btn-primary">SHOW MORE</a>
+               </div>
+             </div>
+        </div>
+        <div class="col-sm-4 py-3 py-sm-0">
+           <div class="card box-shadow" style="width: 18rem;">
+               <img class="card-img-top" src="images/bacterial spot and speck of tomato.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Bacterial spot and speck of tomato</h5>
+                 <p class="card-text"><b>Bacteria.</b></p>
+                 <a href="#" class="btn btn-primary">SHOW MORE</a>
+               </div>
+             </div>
+        </div>
+        <div class="col-sm-4 py-3 py-sm-0">
+           <div class="card box-shadow" style="width: 18rem;">
+               <img class="card-img-top" src="images/leaf spot of turmeric.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">Leaf spot of turmeric</h5>
+                 <p class="card-text"><b>Fungus.</b></p>
+                 <a href="#" class="btn btn-primary">SHOW MORE</a>
+               </div>
+             </div>
+        </div>
+        
+    </div>
+</div>
+  
+   
+
+       <!--Footer -->
+       <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-dark" href="https://AGRI MEDS.com/">AGRI MEDS.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
